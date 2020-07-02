@@ -10137,6 +10137,31 @@ h3 {
 body {
   letter-spacing: 0.0625em;
 }
+#products::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+#products::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+#products::-webkit-scrollbar-button:increment,#products::-webkit-scrollbar-button {
+    display: none;
+} 
+
+#products::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+#products::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid grey;
+}
+
+#products::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
 
 #about{
   /* background-image: url(../assets/img/winery.jpg); */
