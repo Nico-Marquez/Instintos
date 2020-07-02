@@ -1682,7 +1682,7 @@ pre code {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #212529;
+  color: white;
 }
 .table th,
 .table td {
@@ -10138,6 +10138,10 @@ body {
   letter-spacing: 0.0625em;
 }
 
+#about{
+  /* background-image: url(../assets/img/winery.jpg); */
+  background-color: black;
+}
 #mainNav {
   min-height: 3.5rem;
   background-color: #fff;
@@ -10221,6 +10225,7 @@ body {
   letter-spacing: 0.15rem;
   border: 0;
 }
+
 
 .masthead {
   position: relative;
